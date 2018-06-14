@@ -300,6 +300,12 @@
                         display: block;
                         margin: auto;
                     }
+                    img{
+                        width: initial;
+                        max-width: 4.42rem;
+                        height: 1.86rem;
+                        margin: auto;
+                    }
                 }
             }
             width: 100%;
@@ -431,7 +437,10 @@
                     margin-bottom: 0.12rem;
                     img {
                         display: block;
-                        width: 100%;
+//                      width: 100%;
+                         width: initial;
+                        max-width: 4.6rem;
+                        margin: auto;
                         height: 1.86rem;
                     }
                     video {
@@ -488,10 +497,22 @@
             box-sizing: border-box;
             margin: 0 0 0.4rem;
             background: white;
-            img {
+            .imgB{
                 width: 100%;
+                height: 3.4rem;
+            }
+            img {
+//              width: 100%;
+                max-width: 6.34rem;
+                margin: auto;
                 height: 3.2rem;
                 display: block;
+                z-index: 99;
+//              position: absolute;
+//              top: 0;
+//              bottom: 0;
+//              right: 0;
+//              left: 0;
             }
             video {
                 width: 100%;
@@ -588,9 +609,11 @@
 .popupCooked {
     margin: .2rem 0;
     img {
-        width: 100%;
-        max-height: 5.4rem;
+//      width: 100%;
+//      max-height: 5.4rem;
+        height: 5.4rem;
         display: block;
+        margin: auto;
         margin-top: 0.3rem;
     }
     video {
@@ -601,8 +624,11 @@
 }
 .videoShow,.farmChildrenPopupShow {
     img {
-        width: 100%;
-        max-height: 5.4rem;
+//      width: 100%;
+        max-width: 7.49rem;
+        margin: auto;
+//      max-height: 5.4rem;
+        height: 5.4rem;
         display: block;
         margin-top: 0.3rem;
     }
@@ -610,5 +636,9 @@
         width: 100%;
         max-height: 5.4rem;
         margin-top: 0.3rem;
+//      height: 5.4rem;
+//      max-width: 7.49rem;
+//      margin: auto;
+//      display: block;
     }
 }

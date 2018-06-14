@@ -13,7 +13,7 @@
 			<div class="whole_course">
 				<div class="w_header">全程追溯</div>
 				<div class="video">
-					<video id="videoHeader" poster="../assets/img/video.png" controls="controls" >
+					<video id="videoHeader" autoplay="autoplay" poster="../assets/img/video.png" controls="controls" >
 						<source src="../assets/video/jinhe.mp4" type="video/mp4"></source>
 						<!--<object width="" height="" type="application/x-shockwave-flash" data="../assets/video/jinhe.swf">
 							<param name="movie" value="../assets/video/jinhe.swf" />
@@ -143,10 +143,10 @@
 				<div class="content_header">{{messageName}}</div>
 				<ul>
 					<li>{{recoveryEntityView.breedName}}</li>
-					<li>规格：<span>{{recoveryEntityView.specifications}}</span></li>
+					<!--<li>规格：<span>{{recoveryEntityView.specifications}}</span></li>-->
 					<li v-if='isJinheImgShow'><img src="../assets/img/sh_jinhe.png" alt="" /></li>
 					<li>等级：<span>{{recoveryEntityView.gradeName}}</span></li>
-					<li>收货人：<span>{{recoveryEntityView.operatorStaffName}}</span></li>
+					<li>负责人：<span>{{recoveryEntityView.operatorStaffName}}</span></li>
 					<li>收获时间：<span>{{recoveryEntityView.harvestDate}}</span></li>
 				</ul>
 				<div class="h_i_content">
@@ -201,7 +201,7 @@
 											<!--<div class="swiper-pagination-video"></div>-->
 										</div>
 									</li>
-									<li class="dian"><i></i>操作人：<span>{{productInfor.operatorStaffName}}</span></li>
+									<li class="dian"><i></i>负责人：<span>{{item.operatorStaffName}}</span></li>
 									<li class="dian"><i></i>工作参数：<span>{{item.processParameters}}</span></li>
 									<li class="dian"><i></i>作业环境：<span>{{item.operatingEnvironment}}</span></li>
 									<li class="dian" v-if='item.outdetal.length>0&&item.outdetal!=null'><i></i>原料：<span v-for="(i,n) in item.outdetal">{{i.breedName}}<span v-if='n+1!=item.outdetal.length'>、</span></span>
@@ -228,7 +228,8 @@
 								<source id="ogg_src" :src="video_url+cookbooks[0].video" type="video/ogg"> 您的浏览器不支持 HTML5 video 标签。
 							</video>
 						</div>
-						<div v-if='cookbooks[0].photo!=null&&cookbooks[0].photo' v-for='itemPhoto in cookbooks[0].photo.split(",")' class="swiper-slide">
+						<div  v-if='cookbooks[0].photo!=null&&cookbooks[0].photo' v-for='itemPhoto in cookbooks[0].photo.split(",")' class="swiper-slide">
+							<!--<div class="imgB" :style="{background: 'url('+img_url+itemPhoto+') no-repeat',filter:'blur(20px)',zIndex:'2'}"></div>-->
 							<img :data-src="img_url+itemPhoto" alt="" class="swiper-lazy" />
 						</div>
 					</div>
