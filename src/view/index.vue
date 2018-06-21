@@ -450,15 +450,16 @@
 				}).then((d) => {
 					if(d.status == 'success' && typeof d.result != 'string') {
 						//console.log('ddd', d.result)
-						if(TITLE == '宁夏金河科技股份有限公司') {
-							if(new Date(d.result.varietyEntityView.expirationDate) < new Date()) {
-								this.isContentShow = false;
-							} else {
-								this.isContentShow = true;
-							}
-						} else {
-							this.isContentShow = true;
-						}
+//						if(TITLE == '宁夏金河科技股份有限公司') {
+//							if(new Date(d.result.varietyEntityView.expirationDate) < new Date()) {
+//								this.isContentShow = false;
+//							} else {
+//								this.isContentShow = true;
+//							}
+//						} else {
+//							this.isContentShow = true;
+//						}
+						this.isContentShow = true;
 						//判断基地信息
 						if(d.result.farmEntityViewList == null || d.result.farmEntityViewList.length <= 0) {
 							this.farmEntityView = false;

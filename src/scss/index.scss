@@ -9,7 +9,8 @@
         justify-content: space-between;
         align-items: flex-end;
         position: relative;
-        .header_left, .header_right{
+        .header_left,
+        .header_right {
             width: 3.3rem;
             height: 1.2rem;
             font-size: 0.36rem;
@@ -19,24 +20,24 @@
             opacity: 0.9;
             border-radius: 10px;
         }
-        .van-notice-bar{
+        .van-notice-bar {
             border-radius: 2.1rem;
-            font-size: .24rem;
+            font-size: 0.24rem;
             position: absolute;
             width: 6rem;
-//          overflow: hidden;
-            height: .3rem;
+            //          overflow: hidden;
+            height: 0.3rem;
             bottom: 1.9rem;
-            left: .4rem;
-            background:rgba(255,255,255,.8);
-            .van-notice-bar__left-icon{
+            left: 0.4rem;
+            background: rgba(255,255,255,.8);
+            .van-notice-bar__left-icon {
                 width: 1.6rem;
-                img{
+                img {
                     width: 1.5rem;
-                    height: .3rem;
+                    height: 0.3rem;
                 }
             }
-            .van-notice-bar__content{
+            .van-notice-bar__content {
                 min-width: 4.5rem;
                 color: black;
             }
@@ -52,127 +53,127 @@
     }
     .content {
         padding: 0.0rem 0.23rem 0;
-        .whole_course{
-            .w_header{
-                font-size: .4rem;
+        .whole_course {
+            .w_header {
+                font-size: 0.4rem;
                 font-weight: bold;
-                
+
                 color: #77A830;
                 width: 100%;
                 text-align: center;
-                background: url(../assets/img/jinhe_line.png) no-repeat 0 ;
+                background: url("../assets/img/jinhe_line.png") no-repeat 0;
                 background-size: contain;
             }
-            .video{
+            .video {
                 width: 100%;
                 height: 3.76rem;
                 box-sizing: border-box;
-                margin:  .49rem 0 .4rem 0;
-                border: .1rem solid #77A830;
-                video{
+                margin: 0.49rem 0 0.4rem;
+                border: 0.1rem solid #77A830;
+                video {
                     width: 100%;
                     height: 3.55rem;
                 }
             }
         }
-        .tuolaji{
+        .tuolaji {
             width: 100%;
             overflow: hidden;
             background: white;
-            
-            img{
+
+            img {
                 display: block;
             }
-            .tuolaji_img{
+            .tuolaji_img {
                 display: flex;
-//              justify-content: space-between;
-//              width: 6.22rem;
-//              height: 4.5rem;
-//              background: url(../assets/img/line.png);
-//              background-size: contain;
-                .first_img{
-                    margin: 1.7rem 0 0 .4rem;
-                    img{
+                //              justify-content: space-between;
+                //              width: 6.22rem;
+                //              height: 4.5rem;
+                //              background: url(../assets/img/line.png);
+                //              background-size: contain;
+                .first_img {
+                    margin: 1.7rem 0 0 0.4rem;
+                    img {
                         width: 1.2rem;
                         height: 1.2rem;
-                        margin: .05rem 0 0 0;
+                        margin: 0.05rem 0 0;
                     }
-                    .first_img_b{
-                        margin: .3rem 0 0 .48rem;
+                    .first_img_b {
+                        margin: 0.3rem 0 0 0.48rem;
                         width: 1.05rem;
-                        height: .84rem;
-                        background: url(../assets/img/line_four.png);
+                        height: 0.84rem;
+                        background: url("../assets/img/line_four.png");
                         background-size: contain;
                     }
                 }
-                .two_img{
-                    .two_img_header{
+                .two_img {
+                    .two_img_header {
                         width: 2.7rem;
                         height: 1.2rem;
                         margin: auto;
                     }
-                    .two_img_video{
+                    .two_img_video {
                         width: 3.1rem;
                         height: 1.66rem;
-                        margin: .22rem 0 .24rem 0;
-                        border: .06rem solid #77A830;
-                        video{
+                        margin: 0.22rem 0 0.24rem;
+                        border: 0.06rem solid #77A830;
+                        video {
                             width: 2.98rem;
                             height: 1.54rem;
                         }
-                        
+
                     }
-                    .two_img_bottom{
+                    .two_img_bottom {
                         display: flex;
                         justify-content: space-around;
-                        img{
+                        img {
                             width: 1.2rem;
                             height: 1.2rem;
                         }
-                        .two_img_bottom_b_f{
+                        .two_img_bottom_b_f {
                             display: flex;
                             align-items: center;
                         }
-                        .two_img_bottom_b{
-                            width: .2rem;
-                            height: .28rem;
-                            background: url(../assets/img/line_th.png);
+                        .two_img_bottom_b {
+                            width: 0.2rem;
+                            height: 0.28rem;
+                            background: url("../assets/img/line_th.png");
                             background-size: contain;
                         }
                     }
                 }
-                .thr_img{
-                    margin: 0rem .4rem 0 0;
-                    img{
+                .thr_img {
+                    margin: 0 0.4rem 0 0;
+                    img {
                         width: 1.2rem;
                         height: 1.2rem;
-                        margin-left: .3rem;
+                        margin-left: 0.3rem;
                     }
-                    .thr_img_b_1{
-                        margin: .6rem 0 .2rem 0;
+                    .thr_img_b_1 {
+                        margin: 0.6rem 0 0.2rem;
                         width: 1.09rem;
-                        height: .88rem;
-                        background: url(../assets/img/line_one.png);
+                        height: 0.88rem;
+                        background: url("../assets/img/line_one.png");
                         background-size: contain;
                     }
-                    .thr_img_b_2{
-                        margin: .2rem 0 0 0;
+                    .thr_img_b_2 {
+                        margin: 0.2rem 0 0;
                         width: 1.04rem;
                         height: 1.08rem;
-                        background: url(../assets/img/line_two.png);
+                        background: url("../assets/img/line_two.png");
                         background-size: contain;
                     }
                 }
             }
-            .tuolaji_content{
+            .tuolaji_content {
                 width: 6rem;
                 overflow: hidden;
-                margin: .3rem auto .3rem;
-                font-size: .24rem;
+                margin: 0.3rem auto;
+                font-size: 0.24rem;
                 color: #797A78;
                 background: rgba(99, 150, 23, 0.1);
-                line-height: .4rem;
-                padding: .2rem;
+                line-height: 0.4rem;
+                padding: 0.2rem;
             }
         }
         .content_header {
@@ -223,8 +224,8 @@
             .p_i_content {
                 display: flex;
                 img {
-//                  width: 1.42rem;
-//                  height: 1.42rem;
+                    //                  width: 1.42rem;
+                    //                  height: 1.42rem;
                     width: 100%;
                     max-width: 2.6rem;
                     height: 100%;
@@ -254,8 +255,8 @@
             }
         }
         .production_process {
-            padding-bottom: .3rem;
-            margin-bottom: .35rem !important;
+            padding-bottom: 0.3rem;
+            margin-bottom: 0.35rem !important;
             .record_time {
                 display: flex;
                 flex-wrap: wrap;
@@ -285,22 +286,23 @@
                 .swiper-slideC {
                     border: 1px solid #639617;
                 }
-                .swiperChildre{
-                    width: 100% ;
-                    .swiper-slide{
-                        width: 100% ;
+                .swiperChildre {
+                    width: 100%;
+                    .swiper-slide {
+                        width: 100%;
                         height: 1.86rem;
                         min-height: 1.86rem;
                         max-height: 1.86rem;
                     }
-                    img,video {
+                    img,
+                    video {
                         width: 100%;
                         width: 4.42rem;
                         height: 1.86rem;
                         display: block;
                         margin: auto;
                     }
-                    img{
+                    img {
                         width: initial;
                         max-width: 4.42rem;
                         height: 1.86rem;
@@ -437,8 +439,8 @@
                     margin-bottom: 0.12rem;
                     img {
                         display: block;
-//                      width: 100%;
-                         width: initial;
+                        //                      width: 100%;
+                        width: initial;
                         max-width: 4.6rem;
                         margin: auto;
                         height: 1.86rem;
@@ -497,106 +499,107 @@
             box-sizing: border-box;
             margin: 0 0 0.4rem;
             background: white;
-            .imgB{
+            .imgB {
                 width: 100%;
                 height: 3.4rem;
             }
             img {
-//              width: 100%;
+                //              width: 100%;
                 max-width: 6.34rem;
                 margin: auto;
                 height: 3.2rem;
                 display: block;
                 z-index: 99;
-//              position: absolute;
-//              top: 0;
-//              bottom: 0;
-//              right: 0;
-//              left: 0;
+                //              position: absolute;
+                //              top: 0;
+                //              bottom: 0;
+                //              right: 0;
+                //              left: 0;
             }
             video {
                 width: 100%;
                 height: 3.2rem;
             }
-            .text{
-                font-size: .26rem;
+            .text {
+                font-size: 0.26rem;
                 color: #797A78;
-                margin: .3rem 0 0 0;
-                line-height: .4rem;
+                margin: 0.3rem 0 0;
+                line-height: 0.4rem;
             }
         }
         //金河商城
-        .jinhe_store{
+        .jinhe_store {
             width: 100%;
             overflow: hidden;
             background: white;
-            margin-bottom: .4rem;
+            margin-bottom: 0.4rem;
             padding: 0 0.35rem 0.46rem;
             box-sizing: border-box;
-            .jinhe_store_content{
-                margin-bottom: .58rem;
-                font-size: .24rem;
-                .jinhe_store_title{
-                    font-size: .32rem;
+            .jinhe_store_content {
+                margin-bottom: 0.58rem;
+                font-size: 0.24rem;
+                .jinhe_store_title {
+                    font-size: 0.32rem;
                     color: #1B2B02;
                     font-weight: bold;
                 }
-                .html_content{
+                .html_content {
                     color: #797A78;
-                    margin: .29rem 0 .4rem 0;
-                    img{
+                    margin: 0.29rem 0 0.4rem;
+                    img {
                         width: 100%;
                         height: 100%;
                         display: block;
                     }
-                    p,li{
+                    li,
+                    p {
                         line-height: 20px;
                         font-size: 12px;
-                        margin: 0 0 .2rem 0;
+                        margin: 0 0 0.2rem;
                     }
-                    strong{
+                    strong {
                         font-weight: bold;
                         font-size: 18px;
                     }
                 }
-                .jinhe_store_footer{
+                .jinhe_store_footer {
                     display: flex;
-//                  justify-content: space-between;
-                    .jinhe_store_footer_top{
+                    //                  justify-content: space-between;
+                    .jinhe_store_footer_top {
                         flex-grow: 1;
                         width: 3rem;
-                        font-size: .32rem;
+                        font-size: 0.32rem;
                         color: #1B2B02;
-                        .jinhe_store_footer_top_name{
+                        .jinhe_store_footer_top_name {
                             font-weight: bold;
                         }
-                        ul{
+                        ul {
                             display: flex;
                             flex-wrap: wrap;
                             color: #639617;
-                            font-size: .24rem;
-                            li{
-                                margin:.16rem .25rem 0 0;
+                            font-size: 0.24rem;
+                            li {
+                                margin: 0.16rem 0.25rem 0 0;
                                 border: 1px solid #639617;
-                                padding: .05rem;
+                                padding: 0.05rem;
                                 border-radius: 3px;
                             }
                         }
                     }
-                    .jinhe_store_footer_bottom_f{
+                    .jinhe_store_footer_bottom_f {
                         display: flex;
                         flex-grow: 0;
-                        margin-left: .2rem;
+                        margin-left: 0.2rem;
                         align-items: center;
                     }
-                    .jinhe_store_footer_bottom{
+                    .jinhe_store_footer_bottom {
                         display: block;
                         width: 1.4rem;
-                        height: .56rem;
+                        height: 0.56rem;
                         color: #FF5200;
                         border: 1px solid #FF5200;
-                        font-size: .24rem;
-                        line-height: .56rem;
+                        font-size: 0.24rem;
+                        line-height: 0.56rem;
                         text-align: center;
                         border-radius: 3px;
                     }
@@ -605,16 +608,43 @@
         }
 
     }
+    .content {
+        .harvest_info,
+        .product_info,
+        .production_process,
+        .tuolaji {
+            background-image: url("../assets/img/beijing.png");
+            background-size: 100%;
+            background-color: white;
+        }
+        .harvest_info{
+            background-position: 0 -1rem;
+        }
+        .product_info{
+            background-position: 0 -2rem;
+        }
+        .production_process{
+            background-position: 0 -3rem;
+        }
+        .tuolaji{
+            background-position: 0 -4rem;
+            margin-bottom: .4rem;
+        }
+        .process_info{
+             background-position: 0 -5rem;
+        }
+        
+    }
+
 }
 .popupCooked {
-    margin: .2rem 0;
+    margin: 0.2rem 0;
     img {
-//      width: 100%;
-//      max-height: 5.4rem;
+        //      width: 100%;
+        //      max-height: 5.4rem;
         height: 5.4rem;
         display: block;
-        margin: auto;
-        margin-top: 0.3rem;
+        margin: 0.3rem auto auto;
     }
     video {
         width: 100%;
@@ -622,12 +652,13 @@
         margin-top: 0.3rem;
     }
 }
-.videoShow,.farmChildrenPopupShow {
+.farmChildrenPopupShow,
+.videoShow {
     img {
-//      width: 100%;
+        //      width: 100%;
         max-width: 7.49rem;
         margin: auto;
-//      max-height: 5.4rem;
+        //      max-height: 5.4rem;
         height: 5.4rem;
         display: block;
         margin-top: 0.3rem;
@@ -636,9 +667,9 @@
         width: 100%;
         max-height: 5.4rem;
         margin-top: 0.3rem;
-//      height: 5.4rem;
-//      max-width: 7.49rem;
-//      margin: auto;
-//      display: block;
+        //      height: 5.4rem;
+        //      max-width: 7.49rem;
+        //      margin: auto;
+        //      display: block;
     }
 }
